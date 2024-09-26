@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "prompt_generator"
+version = "0.0.1"
+description = ""
+authors = ["James Waugh <multidaomensional@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
+openai = "^1.49.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
